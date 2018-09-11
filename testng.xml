@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HomePage Review">
+    <test name="Promo Section review">
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="width" value="1500"/>
+        <parameter name="height" value="700"/>
+        <parameter name="pageAddress" value="https://www.phptravels.net/"/>
+        <classes>
+            <class name="com.pdobrowolski.helloworldfb.AppTest"></class>
+        </classes>
+    </test>
+</suite>
