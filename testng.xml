@@ -2,11 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="HomePage Review">
+
+    <parameter name="browser" value="Edge"/>
+    <parameter name="width" value="1500"/>
+    <parameter name="height" value="700"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+
     <test name="Promo Section review">
-        <parameter name="browser" value="Firefox"/>
-        <parameter name="width" value="1500"/>
-        <parameter name="height" value="700"/>
-        <parameter name="pageAddress" value="https://www.phptravels.net/"/>
         <classes>
             <class name="com.pdobrowolski.helloworldfb.AppTest"></class>
         </classes>

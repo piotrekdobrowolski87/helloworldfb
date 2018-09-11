@@ -1,4 +1,4 @@
 package com.pdobrowolski.helloworldfb.pages;
 
-public class MainPage {
+public class MainPage extends Page {
 }
