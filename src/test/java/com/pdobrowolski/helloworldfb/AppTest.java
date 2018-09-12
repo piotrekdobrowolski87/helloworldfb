@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class AppTest {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @BeforeSuite(alwaysRun = true)
     @Parameters({"browser", "width", "height", "url"})
