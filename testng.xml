@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="HomePage Review">
+<suite name="Hello world on Facebook">
 
-    <parameter name="browser" value="Edge"/>
+
+    <parameter name="browser" value="Firefox"/>
+    <!--browser: Chrome, Firefox works-->
+    <!--browser: Edge in progress-->
     <parameter name="width" value="1500"/>
     <parameter name="height" value="700"/>
     <parameter name="url" value="https://www.facebook.com/"/>
 
-    <test name="Promo Section review">
+    <test name="Hello world FB">
+        <parameter name="email" value="XXXXX"/>
+        <parameter name="password" value="YYYYY"/>
         <classes>
             <class name="com.pdobrowolski.helloworldfb.AppTest"></class>
         </classes>

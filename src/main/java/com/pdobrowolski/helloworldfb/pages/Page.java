@@ -12,4 +12,8 @@ public abstract class Page {
     protected void setTitle(String title) {
         this.title = title;
     }
+
+    public String getTitle() {
+        return title;
+    }
 }
