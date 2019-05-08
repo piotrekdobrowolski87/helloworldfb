@@ -4,10 +4,10 @@
 <suite name="Hello world on Facebook">
 
 
-    <parameter name="browser" value="Firefox"/>
+    <parameter name="browser" value="Chrome"/>
     <!--browser: Chrome, Firefox works-->
     <!--browser: Edge in progress-->
-    <parameter name="width" value="1500"/>
+    <parameter name="width" value="900"/>
     <parameter name="height" value="700"/>
     <parameter name="url" value="https://www.facebook.com/"/>
 
@@ -16,6 +16,8 @@
         <parameter name="password" value="YYYYY"/>
         <classes>
             <class name="com.pdobrowolski.helloworldfb.AppTest"></class>
+
+
         </classes>
     </test>
 </suite>
