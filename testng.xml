@@ -15,18 +15,7 @@
         <parameter name="email" value="XXXXX"/>
         <parameter name="password" value="YYYYY"/>
         <classes>
-            <class name="com.pdobrowolski.helloworldfb.AppTest">
-                aaaaaa
-            </class>
-            cccccc
-            dddddd
-            eeeeee
-            ffffff
-            testPD2
-            testPD2 2
-
-
-            gggg
+            <class name="com.pdobrowolski.helloworldfb.AppTest"></class>
         </classes>
     </test>
 </suite>
