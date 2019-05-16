@@ -61,8 +61,8 @@ public class MainPage extends Page {
     }
     //local_1 aaa
     //local_2 bbb
-    //local_3 eee
-    //local_4
+    //local_3 eee ccc
+    //local_4 ddd
     //local_5 fff
     //new_online_1
     //new_online_2
