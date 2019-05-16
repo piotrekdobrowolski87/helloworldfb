@@ -59,6 +59,7 @@ public class MainPage extends Page {
 
         wait.until(ExpectedConditions.numberOfElementsToBe(picturesLocator, 17));
     }
+    //local_1
     //new_online_1
     //new_online_2
 }
