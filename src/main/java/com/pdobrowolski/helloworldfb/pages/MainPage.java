@@ -60,7 +60,7 @@ public class MainPage extends Page {
         wait.until(ExpectedConditions.numberOfElementsToBe(picturesLocator, 17));
     }
     //local_1 aaa
-    //local_2
+    //local_2 bbb
     //local_3
     //local_4
     //local_5
